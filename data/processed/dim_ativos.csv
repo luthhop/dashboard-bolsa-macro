@@ -1,0 +1,9 @@
+ticker,empresa,setor
+PETR4.SA,Petrobras,Petróleo e Gás
+VALE3.SA,Vale,Mineração
+ITUB4.SA,Itaú Unibanco,Bancário
+WEGE3.SA,WEG,Bens Industriais
+MGLU3.SA,Magazine Luiza,Varejo
+ABEV3.SA,Ambev,Bebidas e Consumo
+CPFE3.SA,CPFL Energia,Energia Elétrica
+^BVSP,Ibovespa,Índice (Benchmark)
