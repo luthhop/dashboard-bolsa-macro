@@ -17,8 +17,12 @@ Modelo em estrela no Power BI:
 
 Principais medidas DAX: Retorno Acumulado %, Retorno Médio Mensal %, Volatilidade (Desvio Padrão), Selic Média, IPCA Médio Mensal, Preço Base 100 (normalizado para comparação entre ativos).
 
+## Páginas do Dashboard
+- **Visão Geral**: KPIs de contexto macro (Selic e IPCA médios do período), ranking de retorno acumulado por ativo, evolução dos preços normalizados (base 100) para comparação entre ativos de escalas diferentes.
+- **Comparativo entre Ações**: segmentação por ativo, gráfico de dispersão risco x retorno (volatilidade vs. retorno médio mensal), tabela detalhada com todas as métricas por ativo e setor.
+
 ## Status do projeto
-🚧 Em desenvolvimento — modelo de dados e primeira página do dashboard concluídos (Visão Geral: KPIs macro, ranking de retorno por ativo, evolução de preços). Próxima etapa: página de comparativo entre ações.
+🚧 Em desenvolvimento — 2 de 3 páginas do dashboard concluídas (Visão Geral e Comparativo entre Ações). Próxima etapa: página Ações x Macro (Selic e IPCA).
 
 ## Estrutura do repositório
 - `data/raw` — dados brutos, como extraídos da fonte
