@@ -9,8 +9,16 @@ Construir um dashboard em Power BI que analisa o desempenho histórico de açõe
 - **Selic:** Banco Central do Brasil, API SGS (série 432 - Meta Selic), dados diários.
 - **IPCA:** Banco Central do Brasil, API SGS (série 433 - variação mensal), dados mensais.
 
+## Modelo de Dados
+Modelo em estrela no Power BI:
+- **fato_retornos**: retornos mensais, preços, Selic e IPCA por ativo/mês
+- **dim_ativos**: ticker, empresa, setor
+- **dim_datas**: ano_mes, ano, mês
+
+Principais medidas DAX: Retorno Acumulado %, Retorno Médio Mensal %, Volatilidade (Desvio Padrão), Selic Média, IPCA Médio Mensal, Preço Base 100 (normalizado para comparação entre ativos).
+
 ## Status do projeto
-🚧 Em desenvolvimento — ingestão de dados concluída, próxima etapa: tratamento e modelagem dos dados
+🚧 Em desenvolvimento — modelo de dados e primeira página do dashboard concluídos (Visão Geral: KPIs macro, ranking de retorno por ativo, evolução de preços). Próxima etapa: página de comparativo entre ações.
 
 ## Estrutura do repositório
 - `data/raw` — dados brutos, como extraídos da fonte
