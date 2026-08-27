@@ -15,7 +15,7 @@ TICKERS = [
     "WEGE3.SA",
     "MGLU3.SA",
     "ABEV3.SA",
-    "BBAS3.SA",
+    "CPFE3.SA",
     "^BVSP",
 ]
 
